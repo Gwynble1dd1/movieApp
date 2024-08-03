@@ -1,0 +1,166 @@
+*{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+body{
+    background: #3a3a3a;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background: #3f3596;
+    height: 70px;
+}
+
+header h1{
+    padding-top: 10px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+header ul li{
+    display: block;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    float: left;
+    position: relative;
+    color: white;
+}
+header ul li a{
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+header button{
+    display: block;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    float: left;
+    position: relative;
+}
+
+/* VIDEO */
+video{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+/* CARD BODY */
+
+.card{
+    background: #575757;
+}
+.card:hover{
+    background: #747474;
+    transition: 0.5;
+}
+
+/* FOOTER */
+
+.footer{
+    margin-top: 20px;
+    background: #303036;
+    color: #d3d3d3;
+    position: relative;
+
+}
+.footer .footer-section{
+    padding: 22px;
+}
+.footer .socials a{
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+    color: #ffffff;
+}
+.footer .about .socials a:hover {
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+
+
+.reg_form h2{
+    color: #929292;
+    text-align: center;
+    margin: 30px 0px;
+}
+.reg_form input{
+    height: 3.3rem;
+}
+.reg_form .form-label{
+    color: #929292;
+}
+.reg_form a{
+    font-size: 1.2em;
+    transition: all .3s;
+    color: #929292;
+    text-decoration: none;
+    margin-left: 130px;
+}
+.reg_form a:hover{
+    margin-left: 145px;
+    transition: all .3s;
+}
+.reg_form .form-text{
+    color: #929292;
+}
+
+.labels {
+    display: block;
+    font-size: 11px;
+    color: antiquewhite;
+}
+
+.title-table h2{
+    color: antiquewhite;
+    border-bottom: 1px solid #4e4e4e;
+}
+.title-table div{
+    color: antiquewhite;
+    border-bottom: 1px solid #4e4e4e;
+}
+div h4{
+    color: antiquewhite;
+}
+.upload_movie label{
+    color: antiquewhite;
+}
+
+.file-upload{
+    color: antiquewhite;
+}
+
+
+/* Error message */
+
+div .error{
+    color: red;
+    font-style: bold;
+    font-size: 0.8rem;
+}
+
+div .error ul{
+    list-style-type: none;
+}
